@@ -10,22 +10,57 @@
 </head>
 <body>
     <div class="main">
-        <div class="image">
+        <div class="image-section">
             <div class="banner">
                 <img src="odin-logo.png">
                 <h1>SIGN-UP FORM</h1>
             </div>
             <p>PHOTO BY SERGII GULENOK ON UNSPLASH</p>
         </div>
-        <div class="form">
-            <p>This is not a real online service!  You know you need something like this in your life
+        <div class="form-section">
+            <p class="form-section-para">This is not a real online service!  You know you need something like this in your life
                 to help you realize your deepest dreams.  Sign up <em>now</em> to get started.<br>
                 <br>
                 You <em>know</em> you want to.
             </p>
+            <form>
+                <p class="form-para">Let's do this!</p>
+                <div class="columns">
+                    <div class="left-column">
+                        <div class="text-input">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+                        <div class="text-input">
+                            <label for="user_email">EMAIL</label>
+                            <input type="email" id="user_email" name="email">
+                        </div>
+                        <div class="text-input">
+                            <label for="user_password">PASSWORD</label>
+                            <input type="password" id="user_password" name="password">
+                        </div>
+                    </div>
+                    <div class="right-column">
+                        <div class="text-input">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+                        <div class="text-input">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="tel" id="phone_number" name="phone_number">
+                        </div>
+                        <div class="text-input">
+                            <label for="user_password_confirm">CONFIRM PASSWORD</label>
+                            <input type="password" id="user_password_confirm" name="password">
+                        </div>
+                    </div>
+                </div>   
+            </form>
+            <div class="click">
+                <button>Create Account</button>
+                <p class="click-para">Already have an account? Log In</p>
+            </div>
         </div>
     </div>
-    
-    
 </body>
 </html>
