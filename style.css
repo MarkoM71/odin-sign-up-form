@@ -115,6 +115,14 @@ form {
 
 .text-input input {
     height: 24px;
+    /*border: 1px solid #e5e7eb;*/
+
+    border: 1px solid rgb(224, 224, 224);
+}
+
+input:focus {
+    border: 1px solid green;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.342);
 }
 
 .text-input label {
@@ -133,9 +141,29 @@ button {
     width: 225px;
     height: 45px;
     border-radius: 8px;
-    
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    /*background-color: rgb(3, 187, 133);*/
+    /*background-color: #03bb85;*/
+    background-color: #1ebb8c;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover,
+button:focus {
+    background-color: #0d533e;
 }
 
 .click-para {
-    
+    font-size: 17px;
+}
+
+.log-in {
+    color: #1ebb8c;
+}
+
+.log-in:hover {
+    color: #0d533e;
+    font-weight: bold;
 }
