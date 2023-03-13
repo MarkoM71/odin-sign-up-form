@@ -4,7 +4,6 @@ body {
 
 .main {
     display: flex;
-    /*justify-content: center;*/
     width: 100vw;
 }
 
@@ -115,15 +114,24 @@ form {
 
 .text-input input {
     height: 24px;
-    /*border: 1px solid #e5e7eb;*/
-
     border: 1px solid rgb(224, 224, 224);
 }
 
 input:focus {
-    border: 1px solid green;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.342);
 }
+
+input:invalid {
+    border: 2px solid red;
+}
+
+/*input:valid {
+    border: 2px solid green;
+}*/
+
+/*input:required {
+    border: 1px solid rgb(224, 224, 224);
+}*/
 
 .text-input label {
     font-size: 15px;
@@ -144,14 +152,11 @@ button {
     font-size: 18px;
     font-weight: bold;
     color: white;
-    /*background-color: rgb(3, 187, 133);*/
-    /*background-color: #03bb85;*/
     background-color: #1ebb8c;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-button:hover,
-button:focus {
+button:hover {
     background-color: #0d533e;
 }
 
